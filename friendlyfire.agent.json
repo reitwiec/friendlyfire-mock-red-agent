@@ -1,0 +1,19 @@
+{
+  "sdkVersion": "ff-next",
+  "kind": "red",
+  "name": "Mock Browser Red Agent",
+  "description": "Deterministic non-LLM red agent for backend MVP end-to-end verification.",
+  "category": "unauthorized_data_access",
+  "minSupportedTier": "starter",
+  "entrypoint": "./index.mjs",
+  "capabilities": {
+    "http": true,
+    "memory": true,
+    "credentials": false,
+    "evidence": true,
+    "browser": true
+  },
+  "build": {
+    "dockerfile": "Dockerfile"
+  }
+}
