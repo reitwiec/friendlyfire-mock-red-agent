@@ -1,0 +1,12 @@
+{
+  "name": "friendlyfire-mock-red-agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx index.mjs"
+  },
+  "dependencies": {
+    "@friendlyfire/agent-sdk": "file:./vendor/agent-sdk",
+    "tsx": "^4.20.0"
+  }
+}

@@ -6,6 +6,18 @@
   "category": "unauthorized_data_access",
   "minSupportedTier": "starter",
   "entrypoint": "./index.mjs",
+  "scopes": [
+    "http.request",
+    "memory.set",
+    "evidence.record",
+    "browser.goto",
+    "browser.screenshot",
+    "browser.fill",
+    "browser.click",
+    "browser.waitFor",
+    "browser.extractText",
+    "browser.currentUrl"
+  ],
   "capabilities": {
     "http": true,
     "memory": true,
